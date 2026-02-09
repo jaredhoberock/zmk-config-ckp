@@ -7,10 +7,10 @@
 
 / {
 	behaviors {
-		// Esc alone = Escape
-		// Shift + Esc = ~ (tilde)
-		// Alt + Esc = ` (grave)
-		// Cmd + Esc = ` (grave)
+		/*  Esc alone = Escape
+		 *  Shift + Esc = ~ (tilde)
+		 *  Alt + Esc = ` (grave)
+		 */ Cmd + Esc = ` (grave)
 		myesc: my_esc {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
